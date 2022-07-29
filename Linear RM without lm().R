@@ -74,7 +74,7 @@ sprintf('%f %f \n', theta[1], theta[2])
 
 lines(x[, 2], x  %*% theta, col="blue")
 legend("topleft", c('Training data', 'Linear regression'), pch=c(4,NA),col=c("red","green"), lty=c(NA,1))
-
+#
 
 
                   
